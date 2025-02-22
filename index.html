@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio-Monaim</title>
+  </head>
+  <body>
+    <!--Start Header-->
+    <header>
+      <a href="#" class="logo"><span><</span>Monaim<span>/></span></a>
+      <nav class="navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!--End Header-->
+    <!--Start Content-->
+    <section class="main">
+      <div>
+        <h2>Hello, I'm Abdelmonaim<br /><span>Software Engineer</span></h2>
+        <h3>Building Scalable Software Solutions That Drive Growth</h3>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Start About me -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="./images/user.jpg" alt="monaim" />
+        </div>
+        <div class="about-content">
+          <h2 class="fade-in">Hello, I'm <span>Abdelmonaim AHDOUD</span></h2>
+          <p class="slide-up">
+            I am a passionate software engineer with a strong foundation in web
+            development and distributed systems. Currently, I am pursuing a
+            Master's degree in Distributed Systems and Artificial Intelligence
+            at ENSET MOHAMMEDIA. My interests lie in backend development,
+            artificial intelligence, and creating efficient software solutions.
+          </p>
+          <a href="#contact" class="btn slide-up">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- End About me -->
+    <!--Start Projects-->
+    <section class="project" id="projects">
+      <h2 class="title">Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/Capture.PNG" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">Creation responsive websites</p>
+            <strong class="project-title">
+              <span>Leon Project</span>
+              <a href="#" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./images/labo.png" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">
+              Desktop application for managing a research laboratory
+            </p>
+            <strong class="project-title">
+              <span>Laboratory Project</span>
+              <a href="#" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./images/library.png" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">
+              Web application for library management
+            </p>
+            <strong class="project-title">
+              <span>Library Management</span>
+              <a href="#" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/pfe.png" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">
+              Dynamic website for FST research structures
+            </p>
+            <strong class="project-title">
+              <span>Research Structures Project</span>
+              <a href="#" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Projects-->
+    <!--Start Contact-->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Your email address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              placeholder="Subject of your message"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Write your message here"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!--End Contact-->
+    <!--Start Footer-->
+    <footer class="footer">
+      <p class="footer-title">Copyrights @ <span>Abdelmonaim AHDOUD</span></p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-discord"></i></a>
+      </div>
+    </footer>
+    <!--End Footer-->
+    <!--End Content-->
+  </body>
+</html>
